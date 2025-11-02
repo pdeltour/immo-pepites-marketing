@@ -12,16 +12,8 @@ function Footer() {
           </div>
           <div className="footer-section">
             <h4>Contact</h4>
-            <p>Email: contact@immo-pepites.fr</p>
+            <p>Email: support@immo-pepites.fr</p>
             <p>Tel: +33 1 23 45 67 89</p>
-          </div>
-          <div className="footer-section">
-            <h4>Suivez-nous</h4>
-            <div className="social-links">
-              <a href="#facebook">Facebook</a>
-              <a href="#twitter">Twitter</a>
-              <a href="#linkedin">LinkedIn</a>
-            </div>
           </div>
         </div>
         <div className="footer-bottom">

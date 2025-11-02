@@ -1,0 +1,10 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Diamond/Gem Icon -->
+  <path d="M20 5L25 12L20 25L15 12L20 5Z" fill="#3498db" stroke="#fff" stroke-width="1.5"/>
+  <path d="M20 25L25 12L30 15L20 35L10 15L15 12L20 25Z" fill="#2980b9" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Text -->
+  <text x="38" y="22" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    Immo Pépites
+  </text>
+</svg>

@@ -6,7 +6,7 @@ function Features() {
     {
       id: 1,
       title: 'Recherche Centralisée',
-      description: 'Accédez à des milliers d\'annonces provenant de plus de 1500 sites immobiliers, tout en un seul endroit. Ne passez plus à côté des bonnes affaires dispersées sur le web.',
+      description: 'Accédez à des milliers d\'annonces provenant de plus de 500 sites immobiliers, tout en un seul endroit. Ne passez plus à côté des bonnes affaires dispersées sur le web.',
       icon: '🔍'
     },
     {

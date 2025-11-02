@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
+import logo from '../assets/images/logo.svg';
 
 function Header() {
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Immo Pepites</h1>
+          <img src={logo} alt="Immo Pepites" className="logo-image" />
         </div>
         <nav className="nav">
           <ul>

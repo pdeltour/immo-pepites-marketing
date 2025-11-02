@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import CTAButton from './components/CTAButton';
 import Stats from './components/Stats';
+import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
       <Header />
       <Hero />
       <Features />
-      <CTAButton text="Commencer gratuitement" variant="primary" />
+      <CTAButton text="Commencer gratuitement" variant="primary" showTrial={true} />
       <Stats />
-      <CTAButton text="Rejoignez-nous maintenant" variant="secondary" />
+      <Pricing />
+      <CTAButton text="Rejoignez-nous maintenant" variant="secondary" showTrial={true} />
       <Footer />
     </div>
   );

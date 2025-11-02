@@ -3,6 +3,13 @@
   padding: 3rem 2rem;
 }
 
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
 .cta-section.cta-primary {
   background-color: #f8f9fa;
 }
@@ -40,6 +47,17 @@
   background-color: #f8f9fa;
   color: #764ba2;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+}
+
+.cta-trial {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.cta-secondary .cta-trial {
+  color: white;
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {

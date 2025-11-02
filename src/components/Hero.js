@@ -10,6 +10,7 @@ function Hero() {
           Ne perdez plus des heures à chercher. Nous centralisons pour vous les meilleures opportunités d'investissement locatif avant qu'elles ne disparaissent.
         </p>
         <a href="https://app.immo-pepites.fr?tab=register" className="cta-button">Découvrir les pépites</a>
+        <p className="hero-trial">Essai gratuit de 2 semaines · Sans carte bancaire</p>
       </div>
     </section>
   );

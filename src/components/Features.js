@@ -5,33 +5,33 @@ function Features() {
   const features = [
     {
       id: 1,
+      title: 'Gagnez du Temps',
+      description: 'Économisez des heures de recherche quotidienne. Notre système de chasse immobilière travaille pour vous pendant que vous vous consacrez à ce qui compte vraiment.',
+      icon: '⏰'
+    },
+    {
+      id: 2,
       title: 'Recherche Centralisée',
       description: 'Accédez à des milliers d\'annonces provenant de plus de 500 sites immobiliers, tout en un seul endroit. Ne passez plus à côté des bonnes affaires dispersées sur le web.',
       icon: '🔍'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Filtres Intelligents',
       description: 'Sélectionnez les biens rentables 7 fois plus vite grâce à nos critères d\'investissement avancés : rendement locatif, cash-flow, prix au m², écart au marché local.',
       icon: '⚡'
     },
     {
-      id: 3,
-      title: 'Alertes en Temps Réel',
-      description: 'Soyez alerté instantanément des nouvelles pépites qui correspondent à vos critères. Les meilleures affaires disparaissent en 48h, soyez le premier informé.',
-      icon: '🔔'
-    },
-    {
       id: 4,
-      title: 'Analyse de Marché',
-      description: 'Identifiez les meilleures villes où investir grâce à nos analyses de plus de 10 critères : démographie, tension locative, taux d\'étudiants, rendements moyens.',
-      icon: '📊'
+      title: 'Estimation IA des Travaux',
+      description: 'Notre intelligence artificielle analyse chaque bien et estime automatiquement le coût des rénovations nécessaires. Évaluez la rentabilité réelle avant même la visite.',
+      icon: '🤖'
     },
     {
       id: 5,
-      title: 'Gagnez du Temps',
-      description: 'Économisez des heures de recherche quotidienne. Notre système de chasse immobilière travaille pour vous pendant que vous vous consacrez à ce qui compte vraiment.',
-      icon: '⏰'
+      title: 'Alertes en Temps Réel',
+      description: 'Soyez alerté instantanément des nouvelles pépites qui correspondent à vos critères. Les meilleures affaires disparaissent en 48h, soyez le premier informé.',
+      icon: '🔔'
     },
     {
       id: 6,

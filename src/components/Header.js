@@ -13,6 +13,7 @@ function Header() {
           <ul>
             <li><a href="#home">Accueil</a></li>
             <li><a href="#features">Services</a></li>
+            <li><a href="https://store.immo-pepites.fr/pricing/">Tarifs</a></li>
             <li><a href="https://app.immo-pepites.fr" className="login-btn">Se connecter</a></li>
           </ul>
         </nav>

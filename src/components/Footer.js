@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import ContactForm from './ContactForm';
 
 function Footer() {
   return (
@@ -11,8 +12,7 @@ function Footer() {
             <p>Votre partenaire immobilier de confiance</p>
           </div>
           <div className="footer-section">
-            <h4>Contact</h4>
-            <p>Email: support@immo-pepites.fr</p>
+            <ContactForm />
           </div>
         </div>
         <div className="footer-bottom">

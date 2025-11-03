@@ -17,7 +17,7 @@ function Stats() {
     },
     {
       id: 3,
-      number: '7x',
+      number: '10x',
       label: 'Plus rapide',
       icon: '⚡'
     }

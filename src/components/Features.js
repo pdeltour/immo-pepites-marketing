@@ -18,7 +18,7 @@ function Features() {
     {
       id: 3,
       title: 'Filtres Intelligents',
-      description: 'Sélectionnez les biens rentables 7 fois plus vite grâce à nos critères d\'investissement avancés : rendement locatif, cash-flow, prix au m², écart au marché local.',
+      description: 'Sélectionnez les biens rentables 10 fois plus vite grâce à nos critères d\'investissement avancés : rendement locatif, cash-flow, prix au m², écart au marché local.',
       icon: '⚡'
     },
     {
@@ -45,9 +45,6 @@ function Features() {
     <section className="features" id="features">
       <div className="features-container">
         <h2 className="features-title">Pourquoi choisir Immo Pépites ?</h2>
-        <p className="features-intro">
-          Rejoignez des milliers d'investisseurs qui trouvent leurs pépites immobilières plus rapidement
-        </p>
         <div className="features-grid">
           {features.map(feature => (
             <div key={feature.id} className="feature-card">

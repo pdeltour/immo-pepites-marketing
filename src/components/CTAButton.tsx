@@ -20,7 +20,7 @@ function CTAButton({ text = "Commencer gratuitement", variant = "primary", showT
           {text}
         </a>
         {showTrial && (
-          <p className="cta-trial">Essai gratuit de 2 semaines · Sans carte bancaire</p>
+          <p className="cta-trial">Essai gratuit · Sans carte bancaire</p>
         )}
       </div>
     </div>

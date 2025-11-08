@@ -13,38 +13,32 @@ function Features() {
     {
       id: 1,
       title: 'Gagnez du Temps',
-      description: 'Économisez des heures de recherche quotidienne. Notre système de chasse immobilière travaille pour vous pendant que vous vous consacrez à ce qui compte vraiment.',
+      description: 'Économisez des heures de recherche quotidienne. Notre système de chasse immobilière travaille pour vous pendant que vous vous consacrez à ce qui compte vraiment et que l\'IA ne peut pas faire pour vous : visiter les biens et closer.',
       icon: '⏰'
     },
     {
       id: 2,
-      title: 'Recherche Centralisée',
-      description: 'Accédez à des milliers d\'annonces provenant de plus de 500 sites immobiliers, tout en un seul endroit. Ne passez plus à côté des bonnes affaires dispersées sur le web.',
+      title: 'Centralisez vos recherches',
+      description: 'Accédez à des milliers d\'annonces provenant de plus de 900 sites immobiliers, tout en un seul endroit. Ne passez plus à côté des bonnes affaires dispersées sur le web.',
       icon: '🔍'
     },
     {
       id: 3,
-      title: 'Filtres Intelligents',
-      description: 'Sélectionnez les biens rentables 10 fois plus vite grâce à nos critères d\'investissement avancés : rendement locatif, cash-flow, prix au m², écart au marché local.',
-      icon: '⚡'
-    },
-    {
-      id: 4,
-      title: 'Estimation IA des Travaux',
-      description: 'Notre intelligence artificielle analyse chaque bien et estime automatiquement le coût des rénovations nécessaires. Évaluez la rentabilité réelle avant même la visite.',
+      title: 'Estimez les travaux grâce à l\'IA',
+      description: 'Évaluez la rentabilité réelle avant même la visite. Notre intelligence artificielle analyse chaque bien et estime automatiquement le coût des rénovations nécessaires.',
       icon: '🤖'
     },
     {
-      id: 5,
-      title: 'Alertes en Temps Réel',
-      description: 'Soyez alerté instantanément des nouvelles pépites qui correspondent à vos critères. Les meilleures affaires disparaissent en 48h, soyez le premier informé.',
-      icon: '🔔'
+      id: 4,
+      title: 'Personnalisez vos critères',
+      description: 'Sélectionnez les biens rentables 10 fois plus vite grâce à nos critères d\'investissement avancés : Montant total du projet ( travaux et frais de notaire inclus ), rendement locatif, cash-flow, DPE, Zone géographique.',
+      icon: '⚡'
     },
     {
-      id: 6,
-      title: 'Accessible Partout',
-      description: 'Consultez les opportunités immobilières où que vous soyez, depuis votre mobile ou votre ordinateur. Votre recherche vous suit partout.',
-      icon: '📱'
+      id: 5,
+      title: 'Soyez alertés en temps réel',
+      description: 'Soyez alerté instantanément des nouvelles pépites qui correspondent à vos critères. Les meilleures affaires disparaissent en 48h, soyez le premier informé. Parce que vos critères d\'investissement ne sont que les votres, utilisez notre système de personnalisation de veille des opportunités.',
+      icon: '🔔'
     }
   ];
 

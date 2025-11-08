@@ -8,10 +8,6 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Immo Pepites</h3>
-            <p>Votre partenaire immobilier de confiance</p>
-          </div>
-          <div className="footer-section">
             <ContactForm />
           </div>
         </div>

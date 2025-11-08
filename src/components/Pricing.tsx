@@ -7,7 +7,7 @@ function Pricing() {
       <div className="pricing-container">
         <h2 className="pricing-title">Nos Tarifs</h2>
         <p className="pricing-subtitle">
-          Essayez Immo Pépites gratuitement pendant 2 semaines, sans carte bancaire
+          Essayez Immo Pépites gratuitement, sans carte bancaire
         </p>
         <div className="pricing-cta">
           <a

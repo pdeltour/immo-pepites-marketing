@@ -18,7 +18,7 @@ function Stats() {
     },
     {
       id: 2,
-      number: '500+',
+      number: '900+',
       label: 'Sites immobiliers',
       icon: '🌐'
     },

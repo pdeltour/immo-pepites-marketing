@@ -1,7 +1,13 @@
 import React from 'react';
 import './CTAButton.css';
 
-function CTAButton({ text = "Commencer gratuitement", variant = "primary", showTrial = false }) {
+interface CTAButtonProps {
+  text?: string;
+  variant?: 'primary' | 'secondary';
+  showTrial?: boolean;
+}
+
+function CTAButton({ text = "Commencer gratuitement", variant = "primary", showTrial = false }: CTAButtonProps) {
   return (
     <div className={`cta-section cta-${variant}`}>
       <div className="cta-content">

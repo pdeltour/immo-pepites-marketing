@@ -1,8 +1,15 @@
 import React from 'react';
 import './Stats.css';
 
+interface Stat {
+  id: number;
+  number: string;
+  label: string;
+  icon: string;
+}
+
 function Stats() {
-  const stats = [
+  const stats: Stat[] = [
     {
       id: 1,
       number: '10K+',

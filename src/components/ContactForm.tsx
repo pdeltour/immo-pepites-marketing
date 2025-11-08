@@ -1,23 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, FormEvent, ChangeEvent } from 'react';
 import './ContactForm.css';
 
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
+type FormStatus = '' | 'success' | 'error';
+
+interface Web3FormsResponse {
+  success: boolean;
+}
+
 function ContactForm() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
     message: ''
   });
-  const [status, setStatus] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [status, setStatus] = useState<FormStatus>('');
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
     setIsSubmitting(true);
     setStatus('');
@@ -40,7 +52,7 @@ function ContactForm() {
         })
       });
 
-      const result = await response.json();
+      const result: Web3FormsResponse = await response.json();
 
       if (result.success) {
         setStatus('success');
@@ -93,7 +105,7 @@ function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             required
-            rows="4"
+            rows={4}
             disabled={isSubmitting}
           />
         </div>

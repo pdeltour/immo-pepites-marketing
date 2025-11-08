@@ -1,8 +1,15 @@
 import React from 'react';
 import './Features.css';
 
+interface Feature {
+  id: number;
+  title: string;
+  description: string;
+  icon: string;
+}
+
 function Features() {
-  const features = [
+  const features: Feature[] = [
     {
       id: 1,
       title: 'Gagnez du Temps',

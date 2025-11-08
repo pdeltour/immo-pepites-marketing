@@ -14,6 +14,7 @@ function Header() {
       <div className="header-container">
         <div className="logo">
           <img src={logo} alt="Immo Pepites" className="logo-image" />
+          <h1>Immo Pépites</h1>
         </div>
         <button className="burger-menu" onClick={toggleMenu} aria-label="Toggle menu">
           <span className={isMenuOpen ? 'burger-line open' : 'burger-line'}></span>
